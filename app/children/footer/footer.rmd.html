@@ -1,0 +1,22 @@
+
+<body>
+    <template>
+        <style>
+            .app.footer {
+                display: flex;
+                align-items: center;
+                min-height: 25vh;
+                box-shadow: inset 0 0 4px 0 black;
+                padding-inline: var(--offset);
+                background-color: var(--gray-4);
+            }
+        </style>
+        <footer class="app footer">
+            <p>&copy; 2026 Native Web Federation. Maintained entirely for the advancement of open, native web infrastructure standards.</p>
+        </footer>
+    </template>
+    <script>
+        const { content } = document.querySelector('template');
+        frameElement.replaceWith(content);
+    </script>
+</body>

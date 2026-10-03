@@ -7,7 +7,7 @@ const { log } = console;
 const browserSync = bs.create();
 
 function serve() {
-    browserSync.init({ ...config, port: 2026 });
+    browserSync.init({ ...config, port: 5280 });
     gulp.watch('./**/*').on( 'change', (uri, stats) => browserSync.reload() );
 }
 

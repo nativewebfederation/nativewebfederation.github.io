@@ -1,0 +1,3 @@
+[submodule "sovereigncommonsdistributed"]
+	path = sovereigncommonsdistributed
+	url = https://github.com/nativewebfederation/sovereigncommonsdistributed.git

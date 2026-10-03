@@ -1,0 +1,28 @@
+
+<body>
+    <template>
+        <div class="blueprint content"></div>
+    </template>
+    <style>
+        .blueprint.content {
+            padding-inline: var(--offset);
+        }
+    </style>
+    <script src="/lib/marked.min.js"></script>
+    <script>
+        const template = document.querySelector('template');
+        const container = template.content.querySelector('.blueprint.content');
+        const style = document.querySelector('style');
+        const promise = fetch('blueprint.md')
+            .then( response => response.text() )
+            ;
+        const text = promise
+            .then( markdown => marked.parse(markdown) )
+            ;
+        const appended = text
+            .then( markup => container.innerHTML = markup )
+            .then( markup => template.content.appendChild(style) )
+            ;
+        appended.then( x => frameElement.replaceWith(template.content) );
+    </script>
+</body>

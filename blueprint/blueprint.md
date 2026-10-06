@@ -29,6 +29,9 @@ Our engineering track is divided into highly decoupled, three-month **Work Packa
     * **Variant Track 1.2 (Remote Template Imports):** Build and profile the **RTI (Remote Template Import)** model that programmatically replaces incoming frames with a template element.
     * **Variant Track 1.3 (SFC Syntactical Jailbreaks):** Develop and contrast the partial jailbreak (**template element + `<link>` + script[src]**) and the full jailbreak (**RTI + `<link>` + script[src]**) configurations.
     * **Variant Track 1.4 (Polymorphic RMDs):** Map polymorphic layout definitions that dynamically adapt element structures in real time based on component state.
+        * **Variant Track 1.4.1 (Self-Hosted RMDs):** Context-aware RMDs that render in their own top frame with supporting content when their frame is the top frame.
+        * **Variant Track 1.4.2 (Dynamic Template RMDs):** Parameter-aware RMDs that swap out templates based on signatures derived from their top frame location or the child frame location.
+            * Useful for Feature/Environment Flags, A|B/Multivariate Tests, and other forms of template-mapping.
     * **Variant Track 1.5 (Layout Shell States):** Author two competing skeleton UI reference structures: **Basic (controlled from App Shell)** and **Independent (controlled internally from the RMD)**.
     * **Variant Track 1.6 (Static Scopes & Interpolation):** Program the **Basic Static Scope** model using scripts of type `application/json` for native variable interpolation, then expand it into a dedicated **Localization Static Scope** for native i18n/l10n string processing.
     * **Variant Track 1.7 (Browsing Context Bridging):** Execute deep-tech research methods to safely bridge, isolate, and orchestrate **idle and non-idle RMDs** spanning the top-level frame (App Shell) and descendant frames (RMDs).

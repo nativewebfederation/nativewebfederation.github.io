@@ -35,6 +35,7 @@ Our engineering track is divided into highly decoupled, three-month **Work Packa
     * **Variant Track 1.5 (Layout Shell States):** Author two competing skeleton UI reference structures: **Basic (controlled from App Shell)** and **Independent (controlled internally from the RMD)**.
     * **Variant Track 1.6 (Static Scopes & Interpolation):** Program the **Basic Static Scope** model using scripts of type `application/json` for native variable interpolation, then expand it into a dedicated **Localization Static Scope** for native i18n/l10n string processing.
     * **Variant Track 1.7 (Browsing Context Bridging):** Execute deep-tech research methods to safely bridge, isolate, and orchestrate **idle and non-idle RMDs** spanning the top-level frame (App Shell) and descendant frames (RMDs).
+    * **Variant Track 1.8 (Primitive Content Slotting):** Construct and evaluate options for consumers to slot primitive content or template data into the RMD (similar to HTML Slot elements).
 
 ### Work Package 2: Phase 2 — Native Microfrontend (MFE) Protocols & Component Orchestration
 * **Target Duration:** Months 4–6

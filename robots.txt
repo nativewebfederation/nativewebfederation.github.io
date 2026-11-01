@@ -1,0 +1,10 @@
+User-agent: *
+
+# Open full site to all crawlers
+Disallow:
+
+# Highlight non-standard extensions & asset endpoints across any directory level
+Allow: /*.rmd.html
+Allow: /*.md
+Allow: /*.txt
+Allow: /*.json

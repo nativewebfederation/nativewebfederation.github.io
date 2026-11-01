@@ -1,0 +1,22 @@
+Show HN: Native Web Federation – Browser-native architecture using Remote Module Definition
+
+The Native Web Federation (NWF) has initialized an open specification track to reduce client-side framework bloat, build steps, and cascading digital supply-chain risks. 
+
+Our focus is defining layout primitives and publishing reference code to an immutable digital public good registry hosted at Sovereign Commons Distributed (SCD).
+
+The core design centers on the Remote Module Definition (RMD) pattern. RMD shifts layout orchestration, component isolation, and dynamic file splitting back to the browser's native rendering layer using standard ECMAScript modules and vanilla HTML5. This lets applications load and update decoupled code modules across separate origins at runtime without reliance on complex bundler tools or heavy framework runtimes.
+
+Beyond performance, RMD's dynamic, browser-native compilation loop makes the execution of DOM-hydration non-deterministic to outside observers. This acts as a signal-jammer against unwanted automated scraping crawlers, protecting creator content from unauthorized harvesting used to train centralized AI models. 
+
+Additionally, standardizing payload validation at the layout frame layer (via URL parameters or frame payload directives) enables context-aware handshakes for multi-tiered configurations (including authentication), establishing a structural layout barrier that can reduce reliance on CAPTCHAs.
+
+The reference code is published under the MIT License, while specifications are licensed under Creative Commons Attribution 4.0 (CC BY 4.0). Cost accounting and administration are managed through Tieback Technologies, and we are pursuing split-phase public grant funding via panels like the NLnet Foundation and the Sovereign Tech Fund.
+
+We are also running an independent community crowdfunding campaign on Indiegogo to support initial setup overhead and, potentially, full-time development and long-term specification maintenance.
+
+Technical specs, blueprinted roadmaps, and public workspaces are live here:
+
+Live Demo & Reference Implementation (see page source for RMD "Phase 1" prototype): https://cscarlson.github.io/magazinejs/
+Specification Repository (contains "Phase 0/7" predecessor): https://github.com/nativewebfederation/sovereigncommonsdistributed
+Organization Site: https://nativewebfederation.github.io
+Indiegogo Campaign: https://www.indiegogo.com/en/projects/tiebacktechnologies/nwf
